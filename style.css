@@ -77,6 +77,7 @@ strong {
 }
 .butt:hover {
     background-color: rgb(82, 22, 4);
+    transition: 0.25s ease-in;
 }
 .tle {
     color: rgb(143, 141, 141);
@@ -84,6 +85,11 @@ strong {
     display: block;
     border-bottom: 1px solid rgb(184, 179, 179);
     padding: 2px;
+    font-weight: 100;
+}
+.tl {
+    color: rgb(143, 141, 141);
+    font-size: 13px;
     font-weight: 100;
 }
 ul {
@@ -113,8 +119,10 @@ h3 {
     color: rgb(68, 67, 67);
 }
 .flex h2 {
-    font-size: 35px;
     color: rgb(75, 73, 73);
+    font-size: 22px;
+    margin: 13px 13px 13px 10px;
+    text-align: left;
   }
 .light {
     font-size: 20px;
@@ -140,18 +148,52 @@ h3 {
     color: rgb(141, 140, 140);
     font-weight: 900;
 }
-.awesome {
-    width: 100%;
-    margin: 30px auto;
+.szara {
     display: flex;
     flex-direction: row;
+    color: rgb(143, 141, 141);
+    max-width: 370px;
+    font-size: 15px;
+    font-weight: 100px;
+    text-align: left;
+}
+.awesome {
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    max-width: 1000px;
+}
+.aw {
+    max-width: 300px;
+    margin: 15px auto;
+}
+.aw img {
+    display: block;
+    width: 260px;
+    margin: 0;
 }
 .flex {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
-.fas.fa-tint.fa-lg {
-    color: rgb(230, 152, 7);
+.flex img {
+    margin: 10px;
+}
+.flex .szara {
+    margin-left: 10px;
+}
+.bia .flex ul.tle {
+    padding: 0px;
+    margin: 0px;
+}
+i {
+    color: #eeb013;
+    display: block;
+    font-size: 25px;
+    margin: 10px;
 }
 iframe {
     margin: 30px auto;
@@ -160,6 +202,9 @@ iframe {
 }
 .mar {
     margin-bottom: 10px;
+}
+.dupa {
+    padding-top: 90px;
 }
 .hleft {
     text-align: left;
@@ -170,6 +215,9 @@ iframe {
     text-align: left;
     margin-left: 280px;
 }
+.mniej {
+    margin-left: 20px;
+}
 .ytabs {
     display: flex;
     align-items: flex-end;
@@ -177,7 +225,7 @@ iframe {
 .wrapper2 {
     width: 100%;
     margin: 0;
-    background-image: url(https://images.assets-landingi.com/sXen4E6a/Campfire_Tabletop_fireplace_by_Planika.jpg), url(https://images.assets-landingi.com/Jrzadw7Z/Campfire_Tabletop_Fireplace_by_Planika_4.jpg);
+    background-image: url(https://images.assets-landingi.com/sXen4E6a/Campfire_Tabletop_fireplace_by_Planika.jpg);
     background-size: 100%;
     background-attachment: fixed;
     background-position: 100% 100%;
@@ -185,4 +233,117 @@ iframe {
 }
 .wrapper2 .bia {
     padding-top: 50px;
+    padding-bottom: 15px;
+}
+.wrapper3 {
+    width: 100%;
+    margin: 0;
+    background-image: url(https://images.assets-landingi.com/Jrzadw7Z/Campfire_Tabletop_Fireplace_by_Planika_4.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 50%;
+    padding-top: 50px;
+}
+.offer {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    width: 613px;
+    height: 150px;
+    margin: auto;
+    padding-top: 30px;
+}
+.offer .butt {
+    margin: 33px auto auto auto;
+}
+.rating {
+    margin-top: 330px;
+    display: block;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.fas.fa-star {
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 5px;
+}
+.rating img {
+    margin: 12px auto auto 47%;
+    display: block;
+    border-radius: 5px;
+    position: absolute;
+
+}
+.rating h3 {
+    margin-top: 50px;
+}
+.rating .szara {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 13px;
+    max-width: 290px;
+}
+.rating .flex {
+    margin-top: 50px;
+}
+.poster {
+    display: block;
+    width: 400px;
+    padding: 10px 30px;
+    margin: 50px auto auto auto;
+    box-shadow: 1px 1px 5px rgba(82, 81, 81, 0.712);
+    border-top: 5px solid rgb(2, 2, 78);
+}
+.przerwa {
+    display: block;
+    height: 10px;
+    width: 200px;
+    color: white;
+    margin-bottom: 220px;
+}
+.wrapper4 {
+    width: 100%;
+    margin: 0;
+    background-image: url(https://images.assets-landingi.com/aXUsr2xx/Campfire_Tabletop_Fireplace_by_Planika_2.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 50%;
+    padding-top: 50px;
+    padding-bottom: 740px;
+}
+.wrapper4 .offer {
+    width: 960px;
+}
+.wrapper5 {
+    padding-top: 50px;
+}
+.wrapper5 .bia {
+    padding-bottom: 0px;
+}
+.wrapper5 h2 {
+    font-size: 22px;
+}
+.wrapper5 .flex {
+    vertical-align: bottom;
+}
+.other {
+    display: block;
+    margin: 5px;
+}
+.botbut {
+    display: block;
+    border: 1px solid black;
+    width: 220px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+.botbut:hover {
+    color: rgb(59, 59, 59);
+    transition: 0.25s ease-in;
 }
